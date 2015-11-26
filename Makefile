@@ -1,5 +1,5 @@
 create-client-keys:
-	./create_client_keys.sh
+	./create_client_keys.sh $(comment)
 
 configure-ssh-trust:
 	./configure_ssh_trust.sh $(key)
